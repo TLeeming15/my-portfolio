@@ -9,22 +9,32 @@
 </head>
 <body>
     <header class="container">
-        <div class="intro">
-        <img class="profile-picture" src="assets/images/IMG_2280.JPG" alt="profile picture"/>
-        <h1 id="my-name">Tyler Leeming</h1>
-        </div>
-        <ul class="page-links">
-            <li>
-                About me
-            </li>
-            <li>
-                Projects
-            </li>
-            <li>
-                Contact
-            </li>
-        </ul>
+        <!-- <div class="intro"> -->
+        <!-- <img class="profile-picture" src="assets/images/IMG_2280.JPG" alt="profile picture"/> -->
+        <!-- <h1 id="my-name">Tyler Leeming</h1> -->
+        <!-- </div> -->
+        <nav>
+            <a href="#">About Me</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact Me</a>
+          </nav>
     </header>
+
+    <div>
+        <img src="assets/images/hero-desk.jpeg" class="hero image">
+        <div class="hero-text">
+          <h1>I am Tyler Leeming</h1>
+          <p>And I'm a Coding Enthusiast</p>
+        </div>
+      </div>
+
+<figure class="main-photo">
+    <img class="profile-picture" src="assets/images/IMG_2280.JPG" alt="Profile picture"/>
+    <figcaption>
+        <!-- <h1>Tyler Leeming</h1> -->
+    </figcaption>
+</figure>
+
 
 <section class="about-grid">
     <div class="I-am">
@@ -48,38 +58,40 @@
     </div>
 </section>
 
-<section class="flex-container">
+<div class="projects">
     <h3 class="projects-header">My Projects</h3>
 
-    <div class="project-image-refactor">
+    <section class="card">
         <h4> Refactor Project</h4>
         <img class="project-image" src="assets/images/project-1.jpeg">
-    </div>
+    </section>
 
-    <div class="project-image-placeholder">
+    <section class="card">
         <h4>Project 2</h4>
         <img class="project-image" src="assets/images/project-2.jpg">
-    </div>
+    </section>
 
-    <div class="project-image-placeholder">
+    <section class="card">
         <h4>Project 3</h4>
         <img  class="project-image" src="assets/images/project-3.jpg">
-    </div>
+    </section>
 
-    <div class= "project-image-placeholder">
+    <section class="card">
         <h4>Project 4</h4>
         <img class= "project-image"src="assets/images/project-4.jpg">
-    </div>
-    <div class= "project-image-placeholder">
+    </section>
+
+    <section class="card">
         <h4>Project 5</h4>
         <img class= "project-image"src="assets/images/project-5.jpg">
-    </div>
-    <div class= "project-image-placeholder">
+    </section>
+
+    <section class="card">
         <h4>Project 6</h4>
         <img class= "project-image"src="assets/images/project-6.jpg">
-    </div>
+    </section>
 
-</section>
+</div>
 
 <section class="links-grid">
     <div class="links">
