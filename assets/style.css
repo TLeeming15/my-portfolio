@@ -94,11 +94,11 @@ profile-picture:hover {
 .project-image {
     display: flex;
     /* flex-grow: 1 1 200px; */
-    flex:1 1 200px;
+    flex:1 1 100%;
     border-radius: 5px;
     box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16);
     transition: all ease-in-out .2s;
-    max-height: 200px;
+    max-height: 400px;
 	justify-self: center;
     padding: 4%;
     /* position: relative; */
@@ -126,7 +126,25 @@ profile-picture:hover {
     /* align-content: space-between; */
     
   }
-  
+@media screen and (max-width: 900px) {
+    .projects {
+    flex-direction: column;
+    }
+    .card:first-of-type {
+        flex: 0 0 40%;
+    }
+    .project image {
+        width: 100%;
+        height: 400px;
+    }
+    .profile-picture{
+        width:150px;
+        height:150px;
+    }
+}
+
+
+
 .card:first-of-type {
     flex-basis: 80%;
 }
