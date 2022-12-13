@@ -20,6 +20,12 @@ body, html {
     height: 100%;
 }
 
+/* body {
+    display: flex;
+    flex-wrap: wrap;
+
+} */
+
 /* The hero image */
 .hero-desk {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
@@ -54,14 +60,11 @@ body{
 
 .profile-picture {
     border-radius: 50%;
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
     box-shadow: 0 4px 6px rgba(34, 60, 80, .16);
     transition: all ease-in-out .2s;
-	align-items: center;
-}
-.main-photo {
-	align-content: center;
+	align-items: left;
 }
 
 profile-picture:hover {
@@ -69,8 +72,10 @@ profile-picture:hover {
 }
 
 .about-grid{
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     grid-template-columns: 50% 50%;
+    justify-self: center;
 }
 
 .I-am, .I-like{
@@ -89,7 +94,6 @@ profile-picture:hover {
 	visibility: visible;
 }
 	
-
 .project-image {
     border-radius: 5px;
     box-shadow: 0 4px 6px 0 rgba(34, 60, 80, .16);
@@ -155,8 +159,11 @@ profile-picture:hover {
 }
 
 .links-grid {
-    display:  grid;
-    grid-template-columns: 30% 70%;
+    display:  flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: right;
 }
 
 .links-list {
