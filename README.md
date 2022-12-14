@@ -27,7 +27,16 @@ This website adheres to accessibility standards and is also responsive to differ
 
 ## Usage
 
-The following images show the website. 
+The following images show the completed website. You can visit the site by clicking [here.](https://tleeming15.github.io/Horiseon-Refactor/)
+
+<img src="assets/images/screenshot1.png" alt="Navigation bar, profile picture laid overtop of hero image of working desk."/>
+
+<img src="assets/images/screenshot2.png" alt= "About me section and top of first Horiseon Refactor project"/>
+
+<img src="assets/images/screenshot3.png" alt= "Bottom of Horiseon Refactor project and placeholder photos for future projects two and three."/>
+
+<img src="assets/images/screenshot4.png" alt="Placeholder photos for project four and five and a contact form and links to socials in the footer"/>
+ 
 
 ## Installation
 
