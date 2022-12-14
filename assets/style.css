@@ -83,15 +83,14 @@ profile-picture:hover {
     border-style: solid;
     border-width: 2px;
     flex-wrap: wrap;
-    
+}   
  /*These media queries allow specific aspects of the website to be more responsive for different screen sizes and devices.  */
-  }
 @media screen and (max-width: 900px) {
     .projects {
     flex-direction: column;
     }
     .card:first-of-type {
-        flex: 0 0 40%;
+        flex: 0  40%;
     }
     .project image {
         width: 100%;
@@ -102,6 +101,41 @@ profile-picture:hover {
         height:150px;
     }
 }
+@media screen and (max-width: 600px) {
+   
+    .card:first-of-type {
+        flex: 0 0 5%;
+    }
+    .project image {
+        width: 100%;
+        height: 400px;
+    }
+    .profile-picture{
+        width:100px;
+        height:100px;
+    }
+   .hero-text h1 {
+        size: 100px;
+    }
+}
+
+@media screen and (max-width: 541px) {
+   
+    .hero-text p  {
+        display: none;
+    }
+    
+}
+@media screen and (max-width: 376px) {
+.hero-text h1 {
+    font-size: x-small;
+    color:#13293d;
+}
+#about-me {
+    text-align: left;
+}
+}
+
 /* This allows my first project image to be twice the size of the others. */
 .card:first-of-type {
     flex-basis: 80%;
