@@ -27,7 +27,7 @@ This website adheres to accessibility standards and is also responsive to differ
 
 ## Usage
 
-The following images show the completed website. You can visit the site by clicking [here.](https://tleeming15.github.io/Horiseon-Refactor/)
+The following images show the completed website. You can visit the site by clicking [here.](https://tleeming15.github.io/my-portfolio/)
 
 <img src="assets/images/screenshot1.png" alt="Navigation bar, profile picture laid overtop of hero image of working desk."/>
 
