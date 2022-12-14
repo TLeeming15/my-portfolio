@@ -185,6 +185,16 @@ form input[type="submit"] {
     margin: 20px 0;
 }
 
+nav img {
+    height:35px;
+    width:35px;
+}
+
+.contact-form img {
+    height:35px;
+    width:35px;
+}
+
 
 
 
