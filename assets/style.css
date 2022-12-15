@@ -36,6 +36,9 @@ h2 {
   transform: translate(-50%, -50%);
   color: white;
 }
+.hero {
+    position:relative;
+}
 /* This sets the background colour, text colour, and font family for the whole body. */
 body{
     font-family: font-family: "Times New Roman", Times, serif;
@@ -100,7 +103,7 @@ profile-picture:hover {
         height:150px;
     }
 }
-@media screen and (max-width: 600px) {
+ @media screen and (max-width: 600px) {
    
     .card:first-of-type {
         flex: 0 0 5%;
@@ -113,28 +116,7 @@ profile-picture:hover {
         width:100px;
         height:100px;
     }
-   .hero-text h1 {
-        size: 100px;
-    }
 }
-
-@media screen and (max-width: 541px) {
-   
-    .hero-text p  {
-        display: none;
-    }
-    
-} 
-@media screen and (max-width: 376px) {
-.hero-text h1 {
-    font-size: x-small;
-    color:#13293d;
-}
-#about-me {
-    text-align: left;
-}
-}
-
 /* This allows my first project image to be twice the size of the others. */
 .card:first-of-type {
     flex-basis: 80%;
