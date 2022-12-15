@@ -49,7 +49,6 @@ body{
     height: 300px;
     box-shadow: 0 4px 6px rgba(34, 60, 80, .16);
     transition: all ease-in-out .2s;
-
 }
 /* When the cursor hovers over the profile picture there is a slight shadow. */
 profile-picture:hover {
@@ -125,7 +124,7 @@ profile-picture:hover {
         display: none;
     }
     
-} */
+} 
 @media screen and (max-width: 376px) {
 .hero-text h1 {
     font-size: x-small;
