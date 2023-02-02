@@ -8,7 +8,7 @@ This will be an ongoing project as I continue to learn and develp in this profes
 * I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 
-## Problems Solve
+## Problems Solved
 This website adheres to accessibility standards and is also responsive to different size devices. There are both internal and external links to help navigate the website and beyond. The acceptanec criteria that the website completes are as follows:
 
 * GIVEN I need to sample a potential employee's previous work
